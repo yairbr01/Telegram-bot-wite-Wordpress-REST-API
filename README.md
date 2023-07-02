@@ -11,3 +11,4 @@ Using this repository you can create a telegram bot that interfaces with the wor
 3. Setting the ID of the users allowed to use the bot in the bot's executable file (you can use this bot to get the ID: https://t.me/getmyid_bot).
 4. Setting up the Webhooks URLs.
 5. Setting up a new user application on the site and setting up its login information in the bot code.
+6. In order to upload a video or image, you must define a custom field on the website and change its slug in the rest api.
