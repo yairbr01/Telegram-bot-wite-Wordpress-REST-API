@@ -1,3 +1,5 @@
+<?php
+
 add_action( 'rest_api_init', function() {
   register_rest_route( 'news-ticker/v1', '/add', [
     'methods' => 'POST',
@@ -46,3 +48,5 @@ function news_ticker_add_new( $request ) {
 		
 	} 
 }
+
+?>
